@@ -60,11 +60,11 @@ window.onscroll = () => {
         /*======================== download pdf =========================*/
         function downloadPDF() {
             // Replace 'path/to/your/file.pdf' with the actual path to your PDF file
-            var fileURL = 'pdf/MP_Resume.pdf';
+            var fileURL = 'Moreshwar Pardeshi.pdf';
         
             var link = document.createElement('a');
             link.href = fileURL;
-            link.download = 'MP_Resume.pdf';
+            link.download = 'Moreshwar Pardeshi.pdf';
             link.target = '_blank';
             link.click();
         }
